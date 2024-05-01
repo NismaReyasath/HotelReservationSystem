@@ -1,0 +1,108 @@
+C:\Users\acer\.jdks\openjdk-22.0.1\bin\java.exe "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2024.1.1\lib\idea_rt.jar=55520:C:\Program Files\JetBrains\IntelliJ IDEA 2024.1.1\bin" -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath C:\Users\acer\IdeaProjects\HotelReservation\out\production\HotelReservation;C:\Users\acer\Downloads\mysql-connector-j-8.4.0.jar HotelReservationSystem
+
+HOTEL MANAGEMENT SYSTEM
+1. Reserve a room
+2. View Reservations
+3. Get Room Number
+4. Update Reservations
+5. Delete Reservations
+0. Exit
+Choose an option: 1
+Enter guest name: Rifa
+Enter room number: 222
+Enter contact number: 123456789
+Reservation successful!
+
+HOTEL MANAGEMENT SYSTEM
+1. Reserve a room
+2. View Reservations
+3. Get Room Number
+4. Update Reservations
+5. Delete Reservations
+0. Exit
+Choose an option: 2
+Current Reservations:
++----------------+-----------------+---------------+----------------------+-------------------------+
+| Reservation ID | Guest           | Room Number   | Contact Number      | Reservation Date        |
++----------------+-----------------+---------------+----------------------+-------------------------+
+| 1              | Rifa            | 222           | 123456789            | 2024-05-01 17:48:45.0   |
++----------------+-----------------+---------------+----------------------+-------------------------+
+
+HOTEL MANAGEMENT SYSTEM
+1. Reserve a room
+2. View Reservations
+3. Get Room Number
+4. Update Reservations
+5. Delete Reservations
+0. Exit
+Choose an option: 3
+Enter reservation ID: 1
+Enter guest name: Rifa
+Room number for Reservation ID 1 and Guest Rifa is: 222
+
+HOTEL MANAGEMENT SYSTEM
+1. Reserve a room
+2. View Reservations
+3. Get Room Number
+4. Update Reservations
+5. Delete Reservations
+0. Exit
+Choose an option: 4
+Enter reservation ID to update: 1
+Enter new guest name: Varsha
+Enter new room number: 223
+Enter new contact number: 987654321
+Reservation updated successfully!
+
+HOTEL MANAGEMENT SYSTEM
+1. Reserve a room
+2. View Reservations
+3. Get Room Number
+4. Update Reservations
+5. Delete Reservations
+0. Exit
+Choose an option: 2
+Current Reservations:
++----------------+-----------------+---------------+----------------------+-------------------------+
+| Reservation ID | Guest           | Room Number   | Contact Number      | Reservation Date        |
++----------------+-----------------+---------------+----------------------+-------------------------+
+| 1              | Varsha          | 223           | 987654321            | 2024-05-01 17:48:45.0   |
++----------------+-----------------+---------------+----------------------+-------------------------+
+
+HOTEL MANAGEMENT SYSTEM
+1. Reserve a room
+2. View Reservations
+3. Get Room Number
+4. Update Reservations
+5. Delete Reservations
+0. Exit
+Choose an option: 5
+Enter reservation ID to delete: 1
+Reservation deleted successfully!
+
+HOTEL MANAGEMENT SYSTEM
+1. Reserve a room
+2. View Reservations
+3. Get Room Number
+4. Update Reservations
+5. Delete Reservations
+0. Exit
+Choose an option: 2
+Current Reservations:
++----------------+-----------------+---------------+----------------------+-------------------------+
+| Reservation ID | Guest           | Room Number   | Contact Number      | Reservation Date        |
++----------------+-----------------+---------------+----------------------+-------------------------+
++----------------+-----------------+---------------+----------------------+-------------------------+
+
+HOTEL MANAGEMENT SYSTEM
+1. Reserve a room
+2. View Reservations
+3. Get Room Number
+4. Update Reservations
+5. Delete Reservations
+0. Exit
+Choose an option: 0
+Exiting System.....
+ThankYou For Using Hotel Reservation System!!!
+
+Process finished with exit code 0
