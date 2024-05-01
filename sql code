@@ -1,0 +1,27 @@
+ show databases;
++--------------------+
+| Database           |
++--------------------+
+| hotel              |
+| information_schema |
+| mysql              |
+| performance_schema |
+| sakila             |
+| sys                |
+| world              |
++--------------------+
+7 rows in set (0.01 sec)
+
+mysql> use hotel;
+Database changed
+  
+mysql> desc reservations;
++------------------+--------------+------+-----+-------------------+-------------------+
+| Field            | Type         | Null | Key | Default           | Extra             |
++------------------+--------------+------+-----+-------------------+-------------------+
+| reservation_id   | int          | NO   | PRI | NULL              | auto_increment    |
+| guest_name       | varchar(200) | NO   |     | NULL              |                   |
+| room_number      | int          | NO   |     | NULL              |                   |
+| contact_number   | varchar(10)  | NO   |     | NULL              |                   |
+| reservation_date | timestamp    | YES  |     | CURRENT_TIMESTAMP | DEFAULT_GENERATED |
++------------------+--------------+------+-----+-------------------+-------------------+
